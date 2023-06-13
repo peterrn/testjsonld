@@ -7,8 +7,8 @@
    },
    "agrifoodTEF:myCustomProperty":{
       "id":"ext:myCustomProperty",
-      "text":"This is the label"
-	  "@type":"Text"
+      "text":"This is the label",
+      "@type":"Text"
    },
    "agrifoodTEF:myNumericProperty":{
       "id":"ext:myNumericProperty",
