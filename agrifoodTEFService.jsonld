@@ -1,0 +1,17 @@
+{
+   "@context":{
+      "agrifoodTEF":"https://agrifoodTEF.eu/jsonld#",
+	  "number":"https://schema.org/Number",
+	  "text":"https://schema.org/Text",
+      "id":"@id"
+   },
+   "agrifoodTEF:myCustomProperty":{
+      "id":"ext:myCustomProperty",
+      "text":"This is the label"
+   },
+   "agrifoodTEF:myNumericProperty":{
+      "id":"ext:myNumericProperty",
+      "text":"This is a property with a number value",
+      "@type":"number"
+   }
+}
