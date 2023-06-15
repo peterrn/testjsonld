@@ -25,11 +25,13 @@
    "agrifoodTEF:nodeSatellite":{
       "id":"agrifoodTEF:nodeSatellite",
       "text":"Service belongs to which node or satellite.",
-      "@type":"https://schema.org/Text"
+      "@type":"string",
+      "enum": ["AT-S","BE-S","PL-S","NL-S","FR-N","DE-N", "IT-N"]
    },
    "agrifoodTEF:agricultureSectors":{
       "id":"agrifoodTEF:agricultureSectors",
       "text":"Agriculture sectors seperated by comma.",
-      "@type":"https://schema.org/Text"
+      "@type":"https://schema.org/Text",
+      "enum": ["arable farming","horticulture","tree crops","viticulture","livestock Farming","food processing"]
    }
 }
