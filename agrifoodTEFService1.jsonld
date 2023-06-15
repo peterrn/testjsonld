@@ -1,35 +1,29 @@
 {
    "@context":{
-      "agrifoodTEF":"https://agrifoodTEF.eu/jsonld#"
-   },
-   "agrifoodTEF:standardConformity":{
-      "id":"agrifoodTEF:standardConformity",
-      "text":"Does the service follow a standard? If yes: name it, else: empty",
-      "@type":"Text"
-   },
-   "agrifoodTEF:outcomesForTEF":{
-      "id":"agrifoodTEF:outcomesForTEF",
-      "text":"Outcomes for the TEF. Internal parameter.",
-      "@type":"Text"
-   },
-   "agrifoodTEF:keywords":{
-      "id":"agrifoodTEF:keywords",
-      "text":"Keywords separted by comma. https://schema.org/keywords",
-      "@type":"keywords"
-   },
-   "agrifoodTEF:deliveredToTEF":{
-      "id":"agrifoodTEF:deliveredToTEF",
-      "text":"Item delivered to the TEF.",
-      "@type":"Text"
-   },
-   "agrifoodTEF:nodeSatellite":{
-      "id":"agrifoodTEF:nodeSatellite",
-      "text":"Service belongs to which node or satellite.",
-      "@type":"Text"
-   },
-   "agrifoodTEF:agricultureSectors":{
-      "id":"agrifoodTEF:agricultureSectors",
-      "text":"Agriculture sectors seperated by comma.",
-      "@type":"Text"
+      "agrifoodTEF":"https://agrifoodTEF.eu/jsonld#",      
+      "agrifoodTEF:standardConformity":{
+         "@id":"agrifoodTEF:standardConformity",
+         "@type":"Text"
+      },
+      "agrifoodTEF:outcomesForTEF":{
+         "@id":"agrifoodTEF:outcomesForTEF",
+         "@type":"Text"
+      },
+      "agrifoodTEF:keywords":{
+         "@id":"agrifoodTEF:keywords",
+         "@type":"keywords"
+      },
+      "agrifoodTEF:deliveredToTEF":{
+         "@id":"agrifoodTEF:deliveredToTEF",
+         "@type":"Text"
+      },
+      "agrifoodTEF:nodeSatellite":{
+         "@id":"agrifoodTEF:nodeSatellite",
+         "@type":"Text"
+      },
+      "agrifoodTEF:agricultureSectors":{
+         "@id":"agrifoodTEF:agricultureSectors",
+         "@type":"Text"
+      }
    }
 }
