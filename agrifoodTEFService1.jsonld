@@ -17,10 +17,6 @@
          "@id":"agrifoodTEF:deliveredToTEF",
          "@type":"Text"
       },
-      "agrifoodTEF:outcomesForTEF":{
-         "@id":"agrifoodTEF:outcomesForTEF",
-         "@type":"Text"
-      },
       "agrifoodTEF:standardConfomity":{
          "@id":"agrifoodTEF:standardConfomity",
          "@type":"Text"
